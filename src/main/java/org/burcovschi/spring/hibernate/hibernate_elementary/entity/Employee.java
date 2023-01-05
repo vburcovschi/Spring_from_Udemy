@@ -1,4 +1,4 @@
-package org.burcovschi.spring.hibernate_one2one.entity;
+package org.burcovschi.spring.hibernate.hibernate_elementary.entity;
 
 import javax.persistence.*;
 
@@ -22,10 +22,6 @@ public class Employee {
     @Column(name = "salary")
     private int salary;
 
-    @OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REFRESH})
-    @JoinColumn(name = "details_id")
-    private Details empDetail;
-
     public Employee() {
     }
 
@@ -44,7 +40,6 @@ public class Employee {
                 ", surname='" + surname + '\'' +
                 ", department='" + department + '\'' +
                 ", salary=" + salary +
-                ", empDetail=" + empDetail.toString() +
                 '}';
     }
 
@@ -86,13 +81,5 @@ public class Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public Details getEmpDetail() {
-        return empDetail;
-    }
-
-    public void setEmpDetail(Details empDetail) {
-        this.empDetail = empDetail;
     }
 }

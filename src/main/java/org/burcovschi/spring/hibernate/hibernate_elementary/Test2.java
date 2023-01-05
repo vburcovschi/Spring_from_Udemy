@@ -1,7 +1,7 @@
-package org.burcovschi.spring.hibernate;
+package org.burcovschi.spring.hibernate.hibernate_elementary;
 
 
-import org.burcovschi.spring.hibernate.entity.Employee;
+import org.burcovschi.spring.hibernate.hibernate_elementary.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

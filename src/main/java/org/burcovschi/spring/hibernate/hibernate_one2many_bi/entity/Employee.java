@@ -1,4 +1,4 @@
-package org.burcovschi.spring.hibernate_one2many_bi.entity;
+package org.burcovschi.spring.hibernate.hibernate_one2many_bi.entity;
 
 
 import javax.persistence.*;

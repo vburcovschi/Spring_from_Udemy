@@ -1,7 +1,7 @@
-package org.burcovschi.spring.hibernate_one2many_uni;
+package org.burcovschi.spring.hibernate.hibernate_one2many_uni;
 
-import org.burcovschi.spring.hibernate_one2many_uni.entity.Department;
-import org.burcovschi.spring.hibernate_one2many_uni.entity.Employee;
+import org.burcovschi.spring.hibernate.hibernate_one2many_uni.entity.Department;
+import org.burcovschi.spring.hibernate.hibernate_one2many_uni.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
